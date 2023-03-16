@@ -1,3 +1,5 @@
-h1 {
+.title {
     background-color: rgb(214, 32, 227);
+    margin: 0 auto;
+    width: fit-content 
 }
