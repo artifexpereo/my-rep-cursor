@@ -1,5 +1,16 @@
+* {
+    margin: 0;
+}
 .title {
-    background-color: rgb(214, 32, 227);
-    margin: 0 auto;
-    width: fit-content 
+    text-align: center;
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,0.9282563367143732) 100%);
+}
+ul {
+    background-image: radial-gradient( circle farthest-corner at 50.7% 54%,  rgba(204,254,152,1) 0%, rgba(229,253,190,1) 92.4% );
+
+    margin-top: 0;
+}
+li a {
+    color: black;
 }
