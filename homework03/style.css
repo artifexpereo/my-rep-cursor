@@ -74,10 +74,61 @@
   width: 16px;
   height: 16px;
 }
+
 .grey-cookie__cross-sign-img {
   border: none;
   background: none;
   cursor: pointer;
   margin: 0px;
   padding: 0px;
+}
+
+.pink-cookie {
+  margin-top: 72px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 560px;
+  height: 72px;
+  background: #fff;
+  border-radius: 16px;
+  font-family: "Inter", sans-serif;
+}
+
+.pink-cookie__bitten-cookie-img {
+  background: rgba(234, 76, 137, 0.1);
+  width: 16px;
+  height: 16px;
+  padding: 8px 8px 8px 8px;
+  border-radius: 10px;
+}
+
+.pink-cookie__notification a {
+  text-decoration: none;
+  color: #EA4C89;
+}
+
+.pink-cookie__decline button {
+  background: #0D0C220D;
+  border: none;
+  border-radius: 8px;
+  padding: 4px 10px;
+  cursor: pointer;
+}
+
+.pink-cookie__decline button:hover {
+  background: #0d0c221a;
+}
+
+.pink-cookie__allow button {
+  color: #fff;
+  background: #EA4C89;
+  border: none;
+  border-radius: 8px;
+  padding: 4px 10px;
+  cursor: pointer;
+}
+
+.pink-cookie__allow button:hover {
+  background: #ff4a90;
 }
