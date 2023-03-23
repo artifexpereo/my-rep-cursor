@@ -7,7 +7,7 @@
   background-color: #0b2239;
 }
 
-.cookie-notice {
+.darkblue-cookie__notice {
   font-family: "Inter", sans-serif;
   font-size: 13px;
   line-height: 20px;
@@ -17,7 +17,7 @@
   padding-bottom: 16px;
 }
 
-.setting a {
+.darkblue-cookie__setting a {
   font-family: "Inter", sans-serif;
   font-weight: 600;
   font-size: 12px;
@@ -27,11 +27,57 @@
   margin-right: 15px;
 }
 
-.accept button {
+.darkblue-cookie__accept button {
+  cursor: pointer;
   padding-right: 120px;
-  background: #4AD295;
-  border: none; 
+  background: #4ad295;
+  border: none;
   border-radius: 2px;
   padding: 10px 8px;
   color: #fff;
+}
+
+.darkblue-cookie__accept button:hover {
+  background: #3bab79;
+}
+
+.grey-cookie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1440px;
+  height: 52px;
+  background: #2b2627;
+  margin-top: 24px;
+}
+
+.grey-cookie__exclamation-mark-img {
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+
+.grey-cookie__notification {
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  font-size: 13px;
+  width: 630px;
+  height: 20px;
+}
+
+.grey-cookie__notification a {
+  color: #fff;
+}
+
+.grey-cookie__cross-sign-img img {
+  width: 16px;
+  height: 16px;
+}
+.grey-cookie__cross-sign-img {
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin: 0px;
+  padding: 0px;
 }
