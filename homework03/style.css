@@ -105,11 +105,11 @@
 
 .pink-cookie__notification a {
   text-decoration: none;
-  color: #EA4C89;
+  color: #ea4c89;
 }
 
 .pink-cookie__decline button {
-  background: #0D0C220D;
+  background: #0d0c220d;
   border: none;
   border-radius: 8px;
   padding: 4px 10px;
@@ -122,7 +122,7 @@
 
 .pink-cookie__allow button {
   color: #fff;
-  background: #EA4C89;
+  background: #ea4c89;
   border: none;
   border-radius: 8px;
   padding: 4px 10px;
@@ -132,3 +132,36 @@
 .pink-cookie__allow button:hover {
   background: #ff4a90;
 }
+
+.light-grey-cookie {
+  margin-top: 72px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 560px;
+  height: 72px;
+  background: #26262B;
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  color: #ffff;
+}
+
+.light-grey-cookie a {
+  color:  #E6842E;
+  text-decoration: none;
+}
+
+.light-grey-cookie__allow button {
+  color: #26262B;
+  background: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 4px 10px;
+  cursor: pointer;
+}
+
+.light-grey-cookie__allow button:hover {
+  background: #edebeb;
+}
+
