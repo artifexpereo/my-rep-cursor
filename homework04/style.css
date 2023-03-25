@@ -49,6 +49,7 @@
 .contact-container {
   width: 1440px;
   height: 500px;
+  margin-bottom: 45px;
 }
 
 .contact-container__blocks {
@@ -172,4 +173,134 @@
 
 .contact-container__submit-button:hover {
   background: #db4655;
+}
+
+.info-container {
+  width: 1440px;
+  height: 435px;
+  background: #fafafa;
+  display: flex;
+}
+
+.info-container__adress {
+  display: flex;
+  flex-direction: column;
+  width: 259px;
+  height: 264px;
+  padding: 85px 30px 86px 161px;
+}
+
+.info-container__adress-heading {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #101010;
+  margin-bottom: 33px;
+}
+.info-container__adress-description {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #101010;
+  margin-bottom: 141px;
+  height: 54px;
+  width: 254px;
+  left: 166px;
+}
+
+.info-container__adress-copyright {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #101010;
+}
+
+.info-container__services {
+  width: 254px;
+  height: 164px;
+  padding-top: 85px;
+  padding-bottom: 186px;
+}
+
+.info-container__services-heading {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  width: 67px;
+  height: 22px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #101010;
+  margin-bottom: 28px;
+}
+
+.info-container__services p {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.info-container__communication {
+  width: 122px;
+  height: 128px;
+  padding: 85px 166px 222px 30px;
+}
+
+.info-container__communication-heading {
+  height: 22px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #101010;
+  margin-bottom: 33px;
+}
+
+.info-container__communication p {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  margin-bottom: 11px;
+}
+
+.info-container__communication button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin-top: 11px;
+}
+
+
+.info-container__payment {
+padding-top: 85px;
+padding-bottom: 264px;
+}
+
+.info-container__payment-heading {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #101010;
+  margin-bottom: 33px;
+}
+
+.info-container__payment button {
+  border: none;
+  background: none;
+  cursor: pointer;
 }

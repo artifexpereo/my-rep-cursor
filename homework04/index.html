@@ -47,19 +47,20 @@
           <div class="contact-container__right-block">
                 <form>
                     <div class="contact-container__name">
-                        <input class="contact-container__first-name" type="text" name="First Name" placeholder="First Name">
-                        <input class="contact-container__last-name" type="text" name="Last Name" placeholder="Last Name">
+                        <input class="contact-container__first-name" type="text" name="First Name" placeholder="First Name" required>
+                        <input class="contact-container__last-name" type="text" name="Last Name" placeholder="Last Name" required>
                     </div>
                     <div>
                         <input class="contact-container__phone-number" type="tel" name="phone" placeholder="Phone number" required>
                     </div>
                     <div>
-                        <select class="contact-container__services" name="services">
+                        <select class="contact-container__services" name="services" required>
                             <option>Select service</option>
-                            <option>Example 1</option>
-                            <option>Example 2</option>
-                            <option>Example 3</option>
-                            <option>Example 4</option>
+                            <option>Overview</option>
+                            <option>Features</option>
+                            <option>Technology</option>
+                            <option>Terms & Conditions</option>
+                            <option>Privacy</option>
                         </select>
                     </div>
                     <div>
@@ -70,5 +71,48 @@
           </div>
         </div>
       </section>
+
+      <footer>
+        <div class="info-container">
+          <div class="info-container__adress">
+            <h3 class="info-container__adress-heading">Address</h3>
+            <p class="info-container__adress-description">Pipang Ltd, Griva Digeni,
+              <br/> 81-83 Jacovides Tower, 1st Floor
+              <br/> 1090 Picosia USA</p>
+            <p class="info-container__adress-copyright">Copyright 2018 CloudBudget</p>
+          </div>
+          <div class="info-container__services">
+            <h3 class="info-container__services-heading">Services</h3>
+            <p>Overview</p>
+            <p>Features</p>
+            <p>Technology</p>
+            <p>Terms & Conditions</p>
+            <p>Privacy</p>
+          </div>
+          <div class="info-container__communication">
+            <h3 class="info-container__communication-heading">Get in Touch</h3>
+            <p class="info-container__communication-mail">info@cloudbudget.com</p>
+            <p class="info-container__communication-number">+1 844-721-7120</p>
+            <div>
+              <button>
+                <img src="./assets/Facebook.png" alt="Facebook icon">
+              </button>
+              <button>
+                <img src="./assets/i.png">
+                <img src="./assets/n.png" alt="Instagram icon">
+              </button>
+              <button>
+                <img src="./assets/Twitter.png" alt="Twitter icon">
+              </button>
+            </div>
+          </div>
+          <div class="info-container__payment">
+            <h3 class="info-container__payment-heading">We Support</h3>
+            <button>
+              <img src="./assets/Payment methods.png">
+            </button>
+          </div>
+        </div>
+      </footer>
   </body>
 </html>
