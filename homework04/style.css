@@ -1,0 +1,47 @@
+.pink-container {
+  background: #ed4c5c;
+  width: 1440px;
+  height: 500px;
+  color: #ffffff;
+}
+
+.pink-container__blocks {
+  display: flex;
+}
+
+.pink-container__block-one {
+  display: flex;
+  flex-direction: column;
+  padding: 122px 81px 111px 163px;
+}
+
+.pink-container__block-two {
+  padding-top: 94px;
+  padding-bottom: 95px;
+}
+.pink-container__page-title {
+  width: 445px;
+  height: 107px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  margin-bottom: 24px;
+}
+
+.pink-container__page-explenation {
+  width: 445px;
+  height: 64px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  margin-bottom: 44px;
+}
+
+.pink-container__downloadings {
+  width: 134px;
+  height: 32px;
+}
