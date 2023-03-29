@@ -1,0 +1,37 @@
+
+body {
+    background-color: rgb(44, 43, 43);
+}
+
+.first-table {
+    color: white;
+    width: auto;
+    height: auto;
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+.first-table tr {
+    border: 1px solid white
+}
+
+.first-table__names {
+    width: 350px;
+    text-align: left;
+    padding: 10px;
+}
+
+.first-table__dates {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    text-align: left;
+    padding: 10px;
+}
+
+.first-table__dates button {
+    border: none;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
