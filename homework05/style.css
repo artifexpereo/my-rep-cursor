@@ -3,25 +3,34 @@ body {
     background-color: rgb(44, 43, 43);
 }
 
-.first-table {
+.table {
     color: white;
     width: auto;
     height: auto;
+    margin-bottom: 50px;
+    border-spacing: 0;
+    border-collapse: separate;
+    border-radius: 5px;
     border: 1px solid white;
-    border-collapse: collapse;
 }
 
-.first-table tr {
-    border: 1px solid white
+.table tr {
+    border: 1px solid white;
 }
 
-.first-table__names {
+.table__names {
     width: 350px;
     text-align: left;
     padding: 10px;
 }
 
-.first-table__dates {
+.table__dates {
+    width: 350px;
+    text-align: left;
+    padding: 10px;
+}
+
+.table__dates-td {
     display: flex;
     justify-content: space-between;
     width: 350px;
@@ -29,7 +38,11 @@ body {
     padding: 10px;
 }
 
-.first-table__dates button {
+.table__dates-td {
+    color: #b8b4b4;
+}
+
+.table__dates-td button {
     border: none;
     background: none;
     color: white;
