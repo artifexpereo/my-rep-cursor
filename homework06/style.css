@@ -1,0 +1,139 @@
+.page-header {
+  display: flex;
+}
+
+.page-header__rectangles {
+  display: flex;
+}
+
+.page-header__rectangle-violet {
+  width: 20px;
+  height: 20px;
+  background: #9c69e2;
+  border-radius: 20px;
+  margin: 77px 4px 143px 240px;
+}
+
+.page-header__rectangle-pink {
+  width: 20px;
+  height: 35px;
+  background: #f063b8;
+  border-radius: 20px;
+  margin: 62px 121px 143px 5px;
+}
+
+.page-header__info {
+  display: flex;
+}
+
+.page-header__about {
+  font-family: "Avenir", sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 160%;
+  color: #212353;
+  margin: 65px 40px 145px 0px;
+}
+
+.page-header__help {
+  font-family: "Avenir", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  margin: 65px 40px 145px 0px;
+}
+
+.page-header__features {
+  font-family: "Avenir", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  margin: 65px 40px 145px 0px;
+}
+
+.page-header__sign {
+  font-family: "Avenir", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  margin: 65px 400px 145px 0px;
+}
+
+.page-header__info a {
+  text-decoration: none;
+  color: #4b5d68;
+}
+
+.page-header__button {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+  border-radius: 50px;
+  border: none;
+  font-family: "Avenir", sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 160%;
+  color: #212353;
+  padding: 17px 69px 17px 29px;
+  margin-top: 50px;
+}
+
+.fa-arrow-right {
+  padding-left: 20px;
+  color: #9c69e2;
+}
+
+.section-info__header {
+  font-family: "Helvetica Neue", sans-serif;
+  max-width: 645px;
+  width: 100%;
+  max-height: 184px;
+  height: 100%;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 110%;
+  color: #212353;
+  margin: 0px 715px 50px 240px;
+}
+
+.section-info__description {
+  font-family: "Avenir", sans-serif;
+  max-width: 380px;
+  width: 100%;
+  max-height: 120px;
+  height: 100%;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  color: #4b5d68;
+  margin: 0px 868px 50px 240px;
+}
+
+.section-info__button {
+  font-family: "Avenir";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 160%;
+  color: #ffffff;
+  padding: 16px 37px;
+  border: none;
+  border-radius: 50px;
+  background-color: #9c69e2;
+  margin: 0px 240px;
+  cursor: pointer;
+}
+
+.section-info__button:hover {
+  background-color: #7e58b1;
+}
+
+.section-info__img {
+  position: absolute;
+  width: 885px;
+  height: 468px;
+  left: 603px;
+  top: 336px;
+  margin-bottom: 99px;
+}
