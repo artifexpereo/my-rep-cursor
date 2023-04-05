@@ -413,3 +413,75 @@
   color: #212353;
   text-decoration: none;
 }
+
+.testimonials {
+  width: 1118px;
+  height: 709px;
+  background-color: #9c69e2;
+  border-radius: 50px;
+  margin-left: 242px;
+}
+
+.testimonials__header {
+  font-family: "Helvetica", sans-serif;
+  font-size: 40px;
+  line-height: 52px;
+  line-height: 130%;
+  padding: 109px 620px 88px 93px;
+  color: #ffffff;
+}
+
+.testimonials__user-block {
+  width: 949px;
+  height: 330px;
+  background-color: #ffffff;
+  display: flex;
+  margin-left: 93px;
+  border-radius: 20px;
+  box-shadow: 0px 20px 0px rgba(110, 63, 175, 0.3)
+}
+
+.testimonials__user-img {
+  padding: 60px 44px 180px 103px;
+}
+
+.testimonials__user-info {
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
+}
+
+.testimonials__user-name {
+  font-family: Avenir;
+  font-size: 18px;
+  line-height: 160%;
+  color: #212353;
+}
+
+.testimonials__user-email {
+  font-family: "Avenir", sans-serif;
+  font-size: 14px;
+  line-height: 160%; 
+  text-decoration: none;
+  color: #9C69E2;
+  margin-bottom: 19px;
+}
+
+.testimonials__user-response {
+  height: 130px;
+  width: 566px;
+  font-family: "Avenir", sans-serif;
+  font-size: 18px;
+  line-height: 180%;
+  color: #4B5D68;
+}
+
+.testimonials__scroll {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 93px;
+}
+
+.testimonials__left-arrow {
+  margin-right: 20px;
+}
