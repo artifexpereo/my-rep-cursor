@@ -1,0 +1,519 @@
+body {
+  background-color: #f5f5f5;
+}
+header {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-between;
+  max-width: 1100px;
+  width: 100%;
+  margin: 15px auto 40px;
+  color: #1b2437;
+}
+
+.header-title {
+  font-family: "Rochester";
+  font-size: 32px;
+}
+
+.header-icons {
+  align-self: flex-end;
+}
+
+.header-icons i {
+  font-size: 18px;
+  margin-right: 40px;
+}
+
+.header-icons i:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.header-icons i:last-child {
+  margin-right: 0;
+}
+
+hr {
+  margin: 0;
+}
+
+menu nav {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
+  grid-column-gap: 80px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+menu li {
+  list-style-type: none;
+  font-family: "Playfair Display";
+  font-size: 28px;
+}
+
+menu li:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+menu li.active {
+  color: #eda3b5;
+  border-bottom: 3px solid #eda3b5;
+  padding-bottom: 5px;
+}
+
+section {
+  background-image: url(./assets/hero.png);
+  height: 570px;
+  margin-bottom: 70px;
+}
+
+section .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  height: 570px;
+}
+
+.section-title {
+  margin-bottom: 15px;
+  font-family: "Playfair Display";
+  font-size: 48px;
+  color: white;
+  line-height: 67px;
+}
+
+.section-description {
+  margin-bottom: 35px;
+  font-family: "Mulish", sans-serif;
+  font-size: 18px;
+  color: white;
+  line-height: 30px;
+}
+
+.section-button {
+  align-self: flex-start;
+  padding: 23px 0;
+  text-align: center;
+  font-family: "Mulish", sans-serif;
+  color: white;
+  width: 255px;
+  border: none;
+  border-radius: 15px;
+  background-color: #1b2437;
+  font-size: 18px;
+}
+
+.section-button:hover {
+  background-color: #141a28;
+  cursor: pointer;
+}
+
+article {
+  display: grid;
+  grid-template-columns: 458px 323px 331px;
+  grid-template-rows: 225px 204px;
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto 30px;
+  grid-column-gap: 5px;
+  grid-row-gap: 30px;
+}
+
+.collection-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  background: url(./assets/women_collection_category.png) no-repeat;
+  padding-left: 32px;
+  padding-right: 32px;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 1;
+}
+
+.collection-one--title {
+  font-family: "Playfair Display";
+  font-size: 32px;
+  line-height: 45px;
+  color: white;
+  font-weight: 900;
+  margin-bottom: 5px;
+}
+
+.collection-one--text {
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.collection-one--button {
+  margin-bottom: 30px;
+  width: 93px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  padding: 8px 0;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.4);
+  border: none;
+  border-radius: 8px;
+  color: white;
+}
+
+.collection-one--button:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.collection-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #efeff4;
+  border-radius: 16px;
+  padding-left: 25px;
+}
+
+.collection-two--title {
+  font-family: "Mulish";
+  font-size: 16px;
+  color: #1b2437;
+  margin-bottom: 10px;
+}
+
+.collection-two--text {
+  font-family: "Playfair Display";
+  font-size: 32px;
+  line-height: 35px;
+  font-weight: 600;
+}
+
+.collection-three {
+  background: url(./assets/dresses_category.png) no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 40px;
+  padding-bottom: 30px;
+}
+
+.collection-three--header {
+  font-family: "Mulish";
+  font-size: 16px;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.collection-three--text {
+  font-family: "Playfair Display";
+  font-size: 32px;
+  color: white;
+  font-weight: 600;
+}
+
+.collection-four {
+  background: url(./assets/denim_jackets_category.png) no-repeat;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 25px;
+}
+
+.collection-four--header {
+  font-family: "Mulish";
+  font-size: 16px;
+  color: #1b2437;
+  margin-bottom: 15px;
+}
+
+.collection-four--text {
+  font-family: "Playfair Display";
+  font-size: 32px;
+  color: #1b2437;
+  font-weight: 600;
+}
+
+.brands {
+  background-color: white;
+  display: grid;
+  justify-content: space-around;
+  grid-template-columns: auto auto auto auto;
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto 70px;
+  border-radius: 16px;
+}
+
+.brands-all {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  margin: 30px 25px;
+}
+
+/* .brands-all--position {
+  font-family: "Mulish";
+  font-size: 18px;
+} */
+
+.brands-all img {
+  margin-bottom: auto;
+}
+
+.brands-dots {
+  grid-column: 2/4;
+  justify-self: center;
+  padding-bottom: 25px;
+}
+
+.brands-dots i {
+  margin-right: 12px;
+  font-size: 12px;
+  color: #efeff4;
+}
+
+.brands-dots i:hover {
+  cursor: pointer;
+}
+
+.brands-dots i.active {
+  color: #eda3b5;
+}
+
+.likes-container {
+  max-width: 1100px;
+  width: auto;
+  margin: 0 auto 70px;
+}
+
+.likes-container--title {
+  font-family: "Playfair Display";
+  font-size: 48px;
+  color: #1b2437;
+  margin-bottom: 35px;
+}
+
+.likes-container--flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.likes-container--one {
+  width: 350px;
+  margin: 0 0 30px 0;
+  position: relative;
+}
+
+.likes-container--one-info {
+  margin-top: -3px;
+  padding: 16px 18px 18px 24px;
+  background-color: white;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+
+.likes-container--one-info-header {
+  font-family: "Playfair Display";
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.like-container--one-info-description {
+  font-family: "Mulish";
+  font-size: 16px;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+.like-containet--one-info-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.like-container--one-info-price {
+  font-family: "Playfair Display";
+  font-size: 34px;
+  font-weight: 500;
+}
+
+.like-container--one-info-button {
+  font-family: "Mulish";
+  font-size: 18px;
+  color: white;
+  width: 153px;
+  text-align: center;
+  padding: 15px;
+  border: none;
+  background-color: #1b2437;
+  border-radius: 15px;
+}
+
+.like-container--one-info-button:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.like-container--one-info-button.active {
+  background-color: #eda3b5;
+}
+
+.favourite-icon {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: #ffffff;
+  opacity: 60%;
+  border-radius: 50%;
+  padding: 13px;
+}
+
+.favourite-icon i {
+  font-size: 18px;
+  color: #eda3b5;
+  margin-top: 2px;
+}
+
+.favourite-icon:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.contacts {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto 70px;
+}
+
+.contacts-title {
+  font-family: "Playfair Display";
+  font-size: 48px;
+  color: #1b2437;
+  margin-bottom: 50px;
+}
+
+.contacts-info {
+  position: relative;
+  background-color: white;
+  padding: 12px 12px 25px 12px;
+  border-radius: 16px;
+}
+
+.contacts-info img {
+  width: 1076px;
+  margin-bottom: 30px;
+}
+
+.contacts-info--pointer-icon {
+  position: absolute;
+  top: 41.5%;
+  left: 39.7%;
+  color: #1b2437;
+  font-size: 60px;
+}
+
+.contacts-info--flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.contacts-info--flex i {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.contact-info--flex div {
+  font-family: "Mulish";
+  font-size: 18px;
+}
+
+footer {
+  background-color: white;
+}
+
+.footer-container {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1100px;
+  width: 100%;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.footer-block-one {
+  width: 255px;
+}
+
+.footer-block-one--title {
+  font-family: "Rochester";
+  font-size: 32px;
+  margin-bottom: 25px;
+  color: #1b2437;
+}
+
+.footer-block-one--description {
+  font-family: "Playfair Display";
+  font-size: 16px;
+  color: #5c5c5c;
+  line-height: 30px;
+}
+
+.footer-block--title {
+  font-family: "Playfair Display";
+  font-size: 18px;
+  margin-bottom: 22px;
+  font-weight: 600;
+}
+
+.footer-block--option {
+  font-family: "Mulish";
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 20px;
+  color: #8e8e93;
+}
+
+.footer-block--option:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.footer-container--less-paddings {
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+
+.footer-copyright {
+  background-color: #e5e5ea;
+}
+
+.footer-copyright--title {
+  font-family: "Mulish";
+  font-size: 12px;
+  color: #8e8e93;
+}
+
+.footer-copyright--icons i {
+  margin-left: 40px;
+  color: #1b2437;
+}
+
+.footer-copyright--icons i:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
