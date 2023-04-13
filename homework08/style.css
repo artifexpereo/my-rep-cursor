@@ -1,0 +1,67 @@
+.blocks {
+    max-width: 250px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+
+.block {
+    background-color: grey;
+    height: 50px;
+    width: 50px;
+    margin: 5px
+}
+
+.block:nth-last-child(-n+4) {
+    background-color: blue;
+}
+
+.block:nth-of-type(4n-1) {
+    background-color: red;
+}
+
+.button {
+    width: 500px;
+    margin: 20px auto;
+    position: relative;
+}
+
+button {
+    width: 500px;
+    height: 90px;
+    font-size: 24px;
+    border-radius: 100px;
+    border: none;
+    background-color: #44D3A8;
+    color: white;
+    text-transform: uppercase;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+button::before {
+    content: '';
+    position: absolute;
+    width: 200px;
+    border: solid;
+    border-color: #c4c4c4 #ffffff #c4c4c4 #ffffff; ;
+    height: 12px;
+    top: 40%;
+    left: -50%;
+}
+
+button::after {
+    content: '';
+    position: absolute;
+    width: 200px;
+    border: solid;
+    border-color: #c4c4c4 #ffffff #c4c4c4 #ffffff; ;
+    height: 12px;
+    top: 40%;
+    right: -50%;
+}
