@@ -21,6 +21,16 @@ section {
   padding-top: 15px;
 }
 
+.posts:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.tagged:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
 .photos {
     gap: 25px;
 
