@@ -1,0 +1,247 @@
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 70px auto 0;
+}
+
+.jedi-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.jedi-title {
+  font-size: 24px;
+  color: #1c1c1c;
+  font-weight: 900;
+  margin-right: 10px;
+}
+
+.jedi-img img {
+  width: 30px;
+}
+
+.jedi-swords {
+  position: relative;
+  height: 300px;
+}
+
+.handle {
+  width: 50px;
+  height: 18px;
+  border: 1px #555 solid;
+  position: absolute;
+  vertical-align: bottom;
+  display: flex;
+  border-radius: 4px;
+}
+
+.handle-right {
+  right: 0;
+}
+
+.first-part {
+  height: 100%;
+  width: 100%;
+  background: #555;
+}
+
+.second-part {
+  height: 100%;
+  width: 100%;
+  background: #1c1c1c;
+}
+
+.third-part {
+  height: 100%;
+  width: 100%;
+  background: #555;
+}
+
+.jedi-swords .light-saber {
+  position: absolute;
+  top: 0;
+  border-radius: 10px;
+  left: 50%;
+  width: 400px;
+  height: 20px;
+  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
+  0 0 100px #03e9f4;
+  background: white;
+  transform: translate(-50%, 0%);
+  animation: lightSword 1s ease-in-out infinite alternate;
+}
+
+.jedi-swords .violet-saber {
+  position: absolute;
+  top: 25%;
+  border-radius: 10px;
+  left: 50%;
+  width: 400px;
+  height: 20px;
+  box-shadow: 0 0 5px #8803f4, 0 0 25px #8803f4, 0 0 50px #8803f4,
+  0 0 100px #8803f4;
+  background: white;
+  transform: translate(-50%, 0%);
+  animation: violetSword 1s ease-in-out infinite alternate;
+}
+
+.jedi-swords .red-saber {
+  position: absolute;
+  top: 50%;
+  border-radius: 10px;
+  left: 50%;
+  width: 400px;
+  height: 20px;
+  box-shadow: 0 0 5px #f40303, 0 0 25px #f40303, 0 0 50px #f40303,
+  0 0 100px #f40303;
+  background: white;
+  transform: translate(-50%, 0%);
+  animation: redSword 1s ease-in-out infinite alternate;
+}
+
+@keyframes lightSword {
+  0% {
+    top: 0;
+    opacity: 1;
+  }
+  100% {
+    top: 20%;
+    opacity: 0;
+  }
+}
+
+@keyframes violetSword {
+  0% {
+    transform: translate(-50%, 0%) rotate(0);
+  }
+  100% {
+    transform: translate(-50%, 0%) rotate(45deg);
+    top: 50%;
+  }
+}
+
+@keyframes redSword {
+  0% {
+    transform: translate(-50%, 0%) rotate(0);
+  }
+  100% {
+    transform: translate(-50%, 0%) rotate(-45deg);
+  }
+}
+
+.ball-container {
+  display: flex;
+  justify-content: center;
+}
+
+.ball-title {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+.first-ball {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 26%, rgba(0,212,255,1) 100%);
+  transform: rotate(90deg);
+  transform-origin: 50% -100%;
+  animation-name: firstBall;
+  animation-duration: 1.3s;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.second-ball {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #18cbf0;
+}
+
+.third-ball {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #18cbf0;
+}
+
+.fourth-ball {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #18cbf0;
+}
+
+.fifth-ball {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #18cbf0;
+}
+
+.sixth-ball {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #18cbf0;
+}
+
+.seventh-ball {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(9,9,121,1) 74%, rgba(2,0,36,1) 100%);
+  transform: rotate(0deg);
+  transform-origin: 50% -100%;
+  animation-name: lastBall;
+  animation-duration: 1.3s;
+  animation-delay: 1.2s;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes firstBall {
+  0% {
+    transform: rotate(0);
+  }
+  50% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(75deg);
+  }
+}
+
+@keyframes lastBall {
+  0% {
+    transform: rotate(0);
+  }
+  50% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(-75deg);
+  }
+}
+
+@keyframes delay-animation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  50.01% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
